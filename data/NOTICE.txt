@@ -1,0 +1,45 @@
+LoveBirds seating catalog
+
+© OpenStreetMap contributors
+https://www.openstreetmap.org/copyright
+
+The database in seating-catalog.json is derived from OpenStreetMap and is
+available under the Open Database License (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+The complete license accompanies this file as ODbL-1.0.txt, downloaded from:
+https://opendatacommons.org/licenses/odbl/odbl-10.txt
+
+You may copy, redistribute and adapt this database under the ODbL, including
+for commercial use, subject to the license's attribution and share-alike
+requirements. Preserve these notices and the license link with copies.
+The application offers the complete machine-readable JSON catalog for sharing.
+App code and independent user-authored personal finds are not licensed by this
+data notice. The ODbL applies to this OpenStreetMap-derived database.
+
+Provenance and import method
+
+Each city record contains the exact Overpass endpoint and query, its retrieval
+time, the upstream OSM database timestamp, the original copyright notice, and
+counts of accepted and excluded objects. OSM type/id values are preserved, so
+every record can be inspected at https://www.openstreetmap.org/{type}/{id}.
+
+The importer (ios/scripts/fetch-catalog.py) queries bounded areas one at a time,
+uses an identifying User-Agent and verified HTTPS, and pauses between requests.
+The providers' documented usage policies were checked on 2026-10-18:
+https://wiki.openstreetmap.org/wiki/Overpass_API#Public_Overpass_API_instances
+https://overpass.private.coffee/
+
+This is a seating-only extract, not a comprehensive inventory of each city.
+The transformation retains original IDs, coordinates or way/relation centers,
+and a short list of factual seating/access tags. It removes explicitly
+restricted access, conditional access, mapped indoor seats and seats marked
+disused or abandoned. It does not retain contributor identifiers, contact
+details, inscriptions, social-media content or photos. The catalog contains
+no invented pins or inferred seat capacities.
+
+Missing access tags are unverified, not permission to enter private land.
+An untagged restriction on a surrounding park/property may still apply.
+Opening times, fees and on-site signs should be checked when visiting.
+Way/relation center coordinates are approximate. Missing capacity remains
+unknown. No live crowd, quietness or privacy measurement is contained in this
+catalog; the presence of a mapped seat does not establish those qualities.
