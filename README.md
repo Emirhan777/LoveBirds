@@ -12,6 +12,6 @@ Published with GitHub Pages from the root of `main`:
 
 This is a static website without build dependencies, cookies, or added analytics. To preview, run `python3 -m http.server 4180 --bind 127.0.0.1` from this directory.
 
-The app is described as coming to the App Store until availability is verified. The screenshot is the actual native app; the landscape and in-app photographs are illustrative. Support currently uses the repository's public GitHub issues. Avoid posting private locations or personal information.
+The app is described as coming to the App Store until availability is verified. The screenshot is the actual native app; the landscape and in-app photographs are illustrative. Contact support at [pendrawapp@gmail.com](mailto:pendrawapp@gmail.com). The repository's public GitHub issues are an alternative for non-sensitive questions and bug reports. Avoid posting private locations or personal information in public issues.
 
 The catalog in `data/seating-catalog.json` is derived from OpenStreetMap and licensed under ODbL 1.0. Preserve attribution and review `data/NOTICE.txt` and `data/ODbL-1.0.txt` before reusing it. That license applies to the database, not unrelated application code, branding, or photographs. Photo sources and terms are linked in `credits.html`.
